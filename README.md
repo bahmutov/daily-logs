@@ -27,6 +27,7 @@ Month | GH | Commits | New repos | PRs | Reviews | Opened issues | Total | Diff
 [October 2019](./2019/10-October-2019.md) | [Link](https://github.com/bahmutov?tab=overview&from=2019-10-01&to=2019-10-31) | 1095 | 5 | 42 | 18 | 41 | 106 | +41%
 [November 2019](./2019/11-November-2019.md) | [Link](https://github.com/bahmutov?tab=overview&from=2019-11-01&to=2019-11-30) | 1012 | 11 | 39 | 23 | 58 | 131 | +23%
 [December 2019](./2019/12-December-2019.md) | [Link](https://github.com/bahmutov?tab=overview&from=2019-12-01&to=2019-12-31) | 1169 | 11 | 32 | 27 | 35 | 105 | -20%
+[January 2020](./2020/01-January-2020.md) | [Link](https://github.com/bahmutov?tab=overview&from=2020-01-01&to=2020-01-31) | 802 | 7 | 62 | 34 | 41 | 144 | +37%
 
 **Total** = new repos + PRs + reviews + opened issues
 
