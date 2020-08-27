@@ -74,7 +74,7 @@
 - ask **redacted** how to get deployed url in the plugin @feature
 - PR to add missing fields to the object returned from Cypress module API call https://github.com/cypress-io/cypress/pull/5337 @feature
 - fixing PR processing with empty body @feature
-- fixed github event logging in Zeit @featur
+- fixed github event logging in Zeit @feature
 - add advice how to deal with missing binary on CI https://github.com/cypress-io/cypress-documentation/pull/2146 @feature
 - updating branch https://github.com/cypress-io/cypress/tree/test-electron-app-4964 with latest from `develop` to build new version of Electron app @feature
 - working on slides for AllThingsOpen @slides

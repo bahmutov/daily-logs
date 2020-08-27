@@ -74,7 +74,7 @@
   - Skip logging to avoid slowing down task https://github.com/cypress-io/code-coverage/issues/105
 - presentation for 2 groups of people at **redacted**, used slides https://cypress.slides.com/cypress-io/cypress-intro @presentation
 - read https://dev.to/davidkpiano/xstate-version-4-7-and-the-future-2ehk @learning
-- working on building and signing Cypress app - trying to use `electron-builder` instead of `electron-packager` to pack and code sign, getting all sorts of errors https://github.com/cypress-io/cypress/issues/5791 @featire
+- working on building and signing Cypress app - trying to use `electron-builder` instead of `electron-packager` to pack and code sign, getting all sorts of errors https://github.com/cypress-io/cypress/issues/5791 @feature
 - wrote blog post about testing Dark mode appearance @blog
 
 ## Tuesday 2019-12-10

@@ -77,7 +77,7 @@
 - added lint and build on each commit https://github.com/cypress-io/github-action/pull/83 @feature
 - opening issue about Firefox not working inside github action, because it cannot run as root https://github.com/cypress-io/github-action/issues/84 @feature
 - running FF on Circle https://github.com/cypress-io/cypress-example-kitchensink/pull/362 @example
-- a few sanity updates for locked issues @feture
+- a few sanity updates for locked issues @feature
 - looking at Edge detection on Mac PR https://github.com/cypress-io/cypress/pull/6364 @feature
 - meeting about dashboard introduction webinar @slides
 - can we have a Cypress CLI command to list found browsers @feature
