@@ -12,7 +12,6 @@ This repo contains my daily notes in Markdown format. I started keeping daily ru
 
 The dates follow YYYY-MM-DD format, for example `2020-05-27`. There are a couple of missing days - I was probably taking time off or traveling. You often find "The Weekend" notes that show me working through the weekends. I only do this because I enjoy my work so much, it helps me to do stuff even during my days off. Usually during the weekends I invent new stuff, prepare presentations, and write blog posts.
 
-Month | GH Activity
---- | ---
-[March 2019](/2019/03 March 2019.md) | [Link](https://github.com/bahmutov?tab=overview&from=2019-03-01&to=2019-03-31)
-[2020](/2020) | [Jan 1st to Dec 31 2020](https://github.com/bahmutov?tab=overview&from=2020-01-01&to=2020-12-31)
+Month | GH Activity | Commits | New repos | PRs | Reviews | Opened issues
+--- | --- | --- | --- | --- | --- | ---
+[March 2019](./2019/03-March-2019.md) | [Link](https://github.com/bahmutov?tab=overview&from=2019-03-01&to=2019-03-31) | 697 | 13 | 45 | 8 | 72
