@@ -12,6 +12,14 @@ This repo contains my daily notes in Markdown format. I started keeping daily ru
 
 The dates follow YYYY-MM-DD format, for example `2020-05-27`. There are a couple of missing days - I was probably taking time off or traveling. You often find "The Weekend" notes that show me working through the weekends. I only do this because I enjoy my work so much, it helps me to do stuff even during my days off. Usually during the weekends I invent new stuff, prepare presentations, and write blog posts.
 
-Month | GH Activity | Commits | New repos | PRs | Reviews | Opened issues
---- | --- | --- | --- | --- | --- | ---
-[March 2019](./2019/03-March-2019.md) | [Link](https://github.com/bahmutov?tab=overview&from=2019-03-01&to=2019-03-31) | 697 | 13 | 45 | 8 | 72
+Month | GH | Commits | New repos | PRs | Reviews | Opened issues | Total | Diff
+--- | --- | --- | --- | --- | --- | --- | --- | ---
+[March 2019](./2019/03-March-2019.md) | [Link](https://github.com/bahmutov?tab=overview&from=2019-03-01&to=2019-03-31) | 697 | 13 | 45 | 8 | 72 | 138 | -
+[April 2019](./2019/04-April-2019.md) | [Link](https://github.com/bahmutov?tab=overview&from=2019-04-01&to=2019-04-30) | 1391 | 7 | 49 | 8 | 58 | 122 | -12%
+[May 2019](./2019/05-May-2019.md) | [Link](https://github.com/bahmutov?tab=overview&from=2019-05-01&to=2019-05-31) | 1038 | 8 | 52 | 10 | 47 | 117 | -4%
+[June 2019](./2019/06-June-2019.md) | [Link](https://github.com/bahmutov?tab=overview&from=2019-06-01&to=2019-06-30) | 925 | 12 | 43 | 13 | 31 | 99 | -18%
+[July 2019](./2019/07-July-2019.md) | [Link](https://github.com/bahmutov?tab=overview&from=2019-07-01&to=2019-07-31) | 1663 | 13 | 44 | 16 | 63 | 136 | +37%
+
+**Total** = new repos + PRs + reviews + opened issues
+
+**Diff** = ((month's total - previous month's total) / previous month's total) * 100
