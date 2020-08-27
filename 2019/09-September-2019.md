@@ -6,10 +6,10 @@
 - https://github.com/cypress-io/circleci-orb/pull/165 (a few command names) @feature
 - https://github.com/cypress-io/circleci-orb/pull/160 (link to the orb repo in the description) @feature
 - custom cache key for install job, released as v1.9.0 https://github.com/cypress-io/circleci-orb/releases/tag/v1.9.0 @feature
-- Slido meeting about the upcoming workshop @presentation
+- Slido meeting about the upcoming workshop @slides
   - all the little details about the content and organization
 - example using `.as` to save variables in test context and avoid pyramid of callbacks (answered Gitter question) @example
-- replied to email from conference organizers from AngularMIX & anglebrackets @presentation
+- replied to email from conference organizers from AngularMIX & anglebrackets @slides
 - read through the **redacted** to understand what is going on @feature
 - answered https://github.com/cypress-io/cypress/issues/5080 @support
 - example using `jsconfig.json` to get intelligent code completion in a regular JS project https://github.com/cypress-io/cypress-documentation/pull/2054 @example
@@ -23,7 +23,7 @@
   - typescript definition
   - generate tests from object of definitions
   - description and name
--  started slide deck with Justin James https://cypress.slides.com/cypress-io/cypress-on-ci/ for upcoming Webinar @presentation
+-  started slide deck with Justin James https://cypress.slides.com/cypress-io/cypress-on-ci/ for upcoming Webinar @slides
 - last edit to instrument create-react-app v3 blog post @blog
 - looked at the jQuery TS definition breaking cypress testing library https://github.com/cypress-io/cypress/issues/5065 @feature
   - related to upgrading jQuery to v3 pull request that is almost there https://github.com/cypress-io/cypress/pull/1229
@@ -70,9 +70,9 @@
 ## The Weekend
 
 - updated https://github.com/lourenci/react-kanban/pull/100 based on review feedback @example
-- submitted workshop to Agile Testing Days 2020 Chicago, June 21-25 2020 @presentation
+- submitted workshop to Agile Testing Days 2020 Chicago, June 21-25 2020 @slides
   - 2 hour workshop
-- applied to Confoo.ca @presentation
+- applied to Confoo.ca @slides
 - writing blog post how to set up Prettier, VSCode and ESLint with Prettier @blog
 
 ## Monday 2019-09-09
@@ -100,7 +100,7 @@
 
 ## Tuesday 2019-09-10
 
-- replied to Cypress at Confoo workshop @presentation
+- replied to Cypress at Confoo workshop @slides
 - looked at typescript error in the cypress-axe example - not our problem https://github.com/chandramuralis/cypress-axe-typescript-error @feature
 - increase XVFB timeout from 5 to 30 seconds https://github.com/cypress-io/cypress/pull/5114 @feature
 - looking at pull request to give better error message when the cypress install binary is invalid https://github.com/cypress-io/cypress/pull/5060 @feature
@@ -109,7 +109,7 @@
   - https://github.com/cypress-io/cypress/issues/5036
 - document TypeScript files in NYC report for code coverage https://github.com/cypress-io/code-coverage/issues/73 @feature
 - PR to print coverage counters in the command log https://github.com/cypress-io/code-coverage/pull/74 going back and forth with review @feature
-- writing Cypress on CI webcast abstract @presentation
+- writing Cypress on CI webcast abstract @slides
 - let's try using custom list of browsers change https://github.com/cypress-io/cypress/pull/5068 from branch `pass-list-of-browsers-to-config-5067` to return local Electron app in branch `test-electron-app-4964` @feature
   - First need to merge latest from `develop` to Chrome recording branch `add-cri-4608`
   - `pass-list-of-browsers-to-config-5067` is up to date with `develop`
@@ -145,7 +145,7 @@
 ## Thursday 2019-09-12
 
 - write section how to configure ESLint + TypeScript + Prettier together https://glebbahmutov.com/blog/configure-prettier-in-vscode/#vscode-eslint-prettier-typescript-setup @blog
-- Cypress ConFoo.ca workshop announced https://confoo.ca/en/yul2020/session/workshop-end-to-end-testing-with-cypress @presentation
+- Cypress ConFoo.ca workshop announced https://confoo.ca/en/yul2020/session/workshop-end-to-end-testing-with-cypress @slides
 - sent an email to **redacted** about her presentation from CoderCruise
 - quickly looked at `create-nx-workspace` that creates TypeScript Next.js project @learning
 - expenses @internal
@@ -155,7 +155,7 @@
 - Marketing meeting @internal
 - replied to candidates @hiring
 - opened issue to simplify installing beta versions of Cypress by commit SHA https://github.com/cypress-io/cypress/issues/5135 @feature
-- reviewed the schedule for AngularMix conference in November @presentation
+- reviewed the schedule for AngularMix conference in November @slides
 - working on Angular app actions in repo https://github.com/bahmutov/angular-heroes-app-actions @example
 - and writing a blog post testing-angular-application-via-app-actions.md @blog
 
@@ -173,18 +173,18 @@
 ## The Weekend
 
 - finished blog post https://glebbahmutov.com/blog/testing-angular-application-via-app-actions/ @blog
-- working on Cypress on CI slides @presentation
+- working on Cypress on CI slides @slides
 
 ## Monday 2019-09-16
 
-- working on Cypress on CI slides @presentation
+- working on Cypress on CI slides @slides
 - fixed reported dead link https://github.com/bahmutov/cypress-open-from-docker-compose/issues/3 @feature
-- answer speaker questions for Revo.js @presentation
-- meeting **redacted** team that uses Cypress for possible webinar @presentation
+- answer speaker questions for Revo.js @slides
+- meeting **redacted** team that uses Cypress for possible webinar @slides
 - watch "Componentizing end-to-end tests - Nicholas Boll - JSConf US 2019" https://www.youtube.com/watch?v=Pv2YHXQOEJY @learning
 - opened https://github.com/cypress-io/cypress/issues/5148 @feature
 - test runner planning meeting @internal
-- worked on slides for speaking training (same deck for Vermont Code Camp) @presentation
+- worked on slides for speaking training (same deck for Vermont Code Camp) @slides
 
 ## Tuesday 2019-09-17
 
@@ -194,7 +194,7 @@
 ## Wednesday 2019-09-18
 
 - speaker training all day @internal
-- review CI slides with Justin James for upcoming webinar @presentation
+- review CI slides with Justin James for upcoming webinar @slides
 - looked at the orb failing CircleCI config validation suddenly https://github.com/cypress-io/circleci-orb/issues/178 @feature
 - typescript meeting - need to include tsconfig.json in kitchensink @internal
 - commented on https://github.com/cypress-io/cypress/issues/832 - seems people are really confused about running Chrome on CI @support
@@ -206,11 +206,11 @@
 - [x] answering question https://github.com/cypress-io/cypress-example-kitchensink/issues/293 @support
 - [x] building new Docker image https://github.com/cypress-io/cypress-docker-images/pull/144 `cypress/browsers:node10.16.0-chrome77` @feature
 - [x] building docker image `cypress/browsers:node12.6.0-chrome77` https://github.com/cypress-io/cypress-docker-images/pull/143 @feature
-- [x] AllThingsOpen presentation meeting @presentation
+- [x] AllThingsOpen presentation meeting @slides
   - need to start working on the slide deck (with Amir)
 - [x] show demo of Electron testing in Cypress @feature
 - [x] finally have replied to a webinar question that was open from Spotahome webinar @support
-- [x] work on CI slide deck @presentation
+- [x] work on CI slide deck @slides
 - pull requests @feature
 - look at Windows pipe duplicate log lines issue https://github.com/cypress-io/cypress/pull/5045 @feature
   - Try to recreate the problem after patching https://github.com/cypress-io/cypress-test-tiny/pull/49 - no, runs and shows single output line on Windows Circle https://circleci.com/gh/cypress-io/cypress-test-tiny/4442
@@ -224,9 +224,9 @@
 
 - landed https://github.com/cypress-io/cypress-documentation/pull/2090 @feature
   - once it is out need to close / answer several related XVFB issues
-- Worked on CI slides, now need to just tweak them and practice. @presentation
-- creating a survey to send to Revo.js participants before the workshop @presentation
-- created survey for GDG Cambridge group meetup workshop @presentation
+- Worked on CI slides, now need to just tweak them and practice. @slides
+- creating a survey to send to Revo.js participants before the workshop @slides
+- created survey for GDG Cambridge group meetup workshop @slides
 - landed https://github.com/cypress-io/cypress-documentation/pull/1788 @feature
 - sent email to a candidate who has applied @hiring
 - reach out to **redacted** - about Cypress @internal
@@ -234,18 +234,18 @@
 
 ## The Weekend
 
-- finish slides for CI presentation on Monday @presentation
+- finish slides for CI presentation on Monday @slides
 - fork https://github.com/cypress-io/todomvc-app-css and fix the contrast by installing `npm i -S cypress-io/todomvc-app-css#a9d4ea1` @feature
   - used better styles in testing workshop repo
 - answered email about testing from **redacted** @internal
-- worked more on the VermontCodeCamp presentation https://slides.com/bahmutov/secure-the-front-end @presentation
-- started slides for Revo.js https://cypress.slides.com/cypress-io/next-test/ @presentation
+- worked more on the VermontCodeCamp presentation https://slides.com/bahmutov/secure-the-front-end @slides
+- started slides for Revo.js https://cypress.slides.com/cypress-io/next-test/ @slides
 - opened https://github.com/cypress-io/cypress-documentation/issues/2092 @feature
 
 ## Monday 2019-09-23
 
 - make repo https://github.com/cypress-io/cypress-electron-plugin public, and set NPM access to public for `@cypress/electron-plugin` @feature
-- joined `revoconference.slack.com` @presentation
+- joined `revoconference.slack.com` @slides
 - opened https://github.com/cypress-io/cypress-documentation/issues/2093 @feature
 - have written blog post about electron app alpha testing @blog
 - merged https://github.com/cypress-io/cypress/pull/1626 (catch `CYPRESS_ENV` variable) @feature
@@ -253,7 +253,7 @@
 - added better contrast CSS to https://github.com/cypress-io/cypress-example-todomvc with `npm i -S cypress-io/todomvc-app-css#a9d4ea1` @feature
 - CI webinar @presentation
 - meeting with **redacted** team @internal
-- work on Revo.js presentation @presentation
+- work on Revo.js presentation @slides
 - working on creating fiddles from Markdown in branch `process-markdown-files` @feature
 - schedule interview with candidate **redacted** for next Monday @hiring
 - looked at **redacted** homework project, trying to find services people to interview him @hiring
@@ -278,7 +278,7 @@
 
 - travel to Canada
 - answering questions and PR comments @support
-- prepare for ReactJS Montreal, Revo.js and VT code camp @presentation
+- prepare for ReactJS Montreal, Revo.js and VT code camp @slides
 - and CI variables reset @feature
 
 ## Thursday 2019-09-26
@@ -290,7 +290,7 @@
 - adding contexts to https://github.com/cypress-io/cypress/pull/5209 to prevent sensitive env variables everywhere @feature
 - Ambassador call @presentation
 - root cause analysis on variables, work in progress to set and inject variables to build and upload test runner https://github.com/cypress-io/cypress/issues/5219 @feature
-- discussing testing with **redacted** @presentation
+- discussing testing with **redacted** @slides
 - DX experience call @internal
 - Cypress presentation at React Montreal meetup @presentation
 
@@ -302,7 +302,7 @@
   - cypress
   - cypress-test-example-repos
 - sent email to **redacted** @hiring
-- reply to new connections and message on Linked and email after the React Meetup presentation @presentation
+- reply to new connections and message on Linked and email after the React Meetup presentation @slides
 - scheduling interview with **redacted** @hiring
 - created example testing Apache running inside a Docker container for a customer who has problem understanding what to do in this case (?) https://github.com/bahmutov/cypress-tests-apache-in-docker @example
   - added this example to list in Docker examples
@@ -313,7 +313,7 @@
 ## The Weekend
 
 - presentation at VTCodeCamp (security, lots of chatter with people who use Cypress or not) https://slides.com/bahmutov/secure-the-front-end @presentation
-- working on Revo.js presentation @presentation
+- working on Revo.js presentation @slides
 - working on `cypress-fiddle` to allow running tests from Markdown files via custom pre-processor https://github.com/cypress-io/cypress-fiddle/tree/process-markdown-files @feature
 
 ## Monday 2019-09-30
@@ -321,8 +321,8 @@
 - test runner quick meeting @internal
 - noticed jQuery types need sizzle types and made PR https://github.com/cypress-io/cypress/pull/5247 @feature
 - updated test for incorrect `DISPLAY` variable - it can have contents https://github.com/cypress-io/cypress-test-ci-environments/issues/23 @feature
-- submit stay form to DevIntersection / AngleBracket conference in Las Vegas, Nov 20-23 @presentation
+- submit stay form to DevIntersection / AngleBracket conference in Las Vegas, Nov 20-23 @slides
 - upgraded execa for cypress-example-recipes to hopefully avoid Windows timing out @example
 - interview **redacted** @hiring
-- submitted talk about Cypress idea to [https://www.onlinetestconf.com](https://www.onlinetestconf.com/) @presentation
+- submitted talk about Cypress idea to [https://www.onlinetestconf.com](https://www.onlinetestconf.com/) @slides
 - opened issue about hanging test example recipe https://github.com/cypress-io/cypress-example-recipes/issues/337 @example
