@@ -13,6 +13,8 @@ This repo contains my daily notes in Markdown format. I started keeping daily ru
 
 The dates follow YYYY-MM-DD format, for example `2020-05-27`. There are a couple of missing days - I was probably taking time off or traveling. You often find "The Weekend" notes that show me working through the weekend. I only do this because I enjoy my work so so much, it helps me to do stuff even during my days off. Usually during the weekends I invent new stuff, prepare presentations, and write blog posts.
 
+## GitHub stats
+
 Month | GH | Commits | New repos | PRs | Reviews | Opened issues | Total | Diff
 --- | --- | --- | --- | --- | --- | --- | --- | ---
 [March 2019](./2019/03-March-2019.md) | [Link](https://github.com/bahmutov?tab=overview&from=2019-03-01&to=2019-03-31) | 697 | 13 | 45 | 8 | 72 | 138 |
@@ -23,6 +25,7 @@ Month | GH | Commits | New repos | PRs | Reviews | Opened issues | Total | Diff
 [August 2019](./2019/08-August-2019.md) | [Link](https://github.com/bahmutov?tab=overview&from=2019-08-01&to=2019-08-31) | 378 | 4 | 26 | 7 | 31 | 68 | -50%
 [September 2019](./2019/09-September-2019.md) | [Link](https://github.com/bahmutov?tab=overview&from=2019-09-01&to=2019-09-30) | 715 | 10 | 24 | 11 | 30 | 75 | +10%
 [October 2019](./2019/10-October-2019.md) | [Link](https://github.com/bahmutov?tab=overview&from=2019-10-01&to=2019-10-31) | 1095 | 5 | 42 | 18 | 41 | 106 | +41%
+[November 2019](./2019/11-November-2019.md) | [Link](https://github.com/bahmutov?tab=overview&from=2019-11-01&to=2019-11-30) | 1012 | 11 | 39 | 23 | 58 | 131 | +23%
 
 **Total** = new repos + PRs + reviews + opened issues
 
