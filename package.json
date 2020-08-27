@@ -1,0 +1,24 @@
+{
+  "name": "daily-logs",
+  "version": "1.0.0",
+  "description": "Daily personal notes",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/daily-logs.git"
+  },
+  "keywords": [],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/daily-logs/issues"
+  },
+  "homepage": "https://github.com/bahmutov/daily-logs#readme",
+  "dependencies": {
+    "ramda": "0.27.1"
+  }
+}
