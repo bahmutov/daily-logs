@@ -14,11 +14,12 @@ The dates follow YYYY-MM-DD format, for example `2020-05-27`. There are a couple
 
 Month | GH | Commits | New repos | PRs | Reviews | Opened issues | Total | Diff
 --- | --- | --- | --- | --- | --- | --- | --- | ---
-[March 2019](./2019/03-March-2019.md) | [Link](https://github.com/bahmutov?tab=overview&from=2019-03-01&to=2019-03-31) | 697 | 13 | 45 | 8 | 72 | 138 | -
+[March 2019](./2019/03-March-2019.md) | [Link](https://github.com/bahmutov?tab=overview&from=2019-03-01&to=2019-03-31) | 697 | 13 | 45 | 8 | 72 | 138 |
 [April 2019](./2019/04-April-2019.md) | [Link](https://github.com/bahmutov?tab=overview&from=2019-04-01&to=2019-04-30) | 1391 | 7 | 49 | 8 | 58 | 122 | -12%
 [May 2019](./2019/05-May-2019.md) | [Link](https://github.com/bahmutov?tab=overview&from=2019-05-01&to=2019-05-31) | 1038 | 8 | 52 | 10 | 47 | 117 | -4%
 [June 2019](./2019/06-June-2019.md) | [Link](https://github.com/bahmutov?tab=overview&from=2019-06-01&to=2019-06-30) | 925 | 12 | 43 | 13 | 31 | 99 | -18%
 [July 2019](./2019/07-July-2019.md) | [Link](https://github.com/bahmutov?tab=overview&from=2019-07-01&to=2019-07-31) | 1663 | 13 | 44 | 16 | 63 | 136 | +37%
+[August 2019](./2019/08-August-2019.md) | [Link](https://github.com/bahmutov?tab=overview&from=2019-08-01&to=2019-08-31) | 378 | 4 | 26 | 7 | 31 | 68 | -50%
 
 **Total** = new repos + PRs + reviews + opened issues
 
