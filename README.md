@@ -10,9 +10,9 @@ This repo contains my daily notes in Markdown format. I started keeping daily ru
 - `@hiring` conducting a hiring interview
 - `@blog` writing a blog post for [https://www.cypress.io/blog/](https://www.cypress.io/blog/) or [https://glebbahmutov.com/blog/](https://glebbahmutov.com/blog/)
 
-The dates follow YYYY-MM-DD format, for example `2020-05-27`. There are a couple of missing days - I was probably taking time off or traveling.
+The dates follow YYYY-MM-DD format, for example `2020-05-27`. There are a couple of missing days - I was probably taking time off or traveling. You often find "The Weekend" notes that show me working through the weekends. I only do this because I enjoy my work so much, it helps me to do stuff even during my days off. Usually during the weekends I invent new stuff, prepare presentations, and write blog posts.
 
-Daily Logs | GitHub Contributions
+Month | GH Activity
 --- | ---
-[2019](/2019) | [Jan 1st to Dec 31 2019](https://github.com/bahmutov?tab=overview&from=2019-01-01&to=2019-12-31)
+[March 2019](/2019/03 March 2019.md) | [Link](https://github.com/bahmutov?tab=overview&from=2019-03-01&to=2019-03-31)
 [2020](/2020) | [Jan 1st to Dec 31 2020](https://github.com/bahmutov?tab=overview&from=2020-01-01&to=2020-12-31)
