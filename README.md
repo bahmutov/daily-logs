@@ -33,6 +33,7 @@ Month | GH | Commits | New repos | PRs | Reviews | Opened issues | Total | Diff
 [April 2020](./2020/04-April-2020.md) | [Link](https://github.com/bahmutov?tab=overview&from=2020-04-01&to=2020-04-30) | 1145 | 29 | 85 | 26 | 89 | 229 | +16%
 [May 2020](./2020/05-May-2020.md) | [Link](https://github.com/bahmutov?tab=overview&from=2020-05-01&to=2020-05-31) | 1311 | 30 | 89 | 38 | 102 | 259 | +13%
 [June 2020](./2020/06-June-2020.md) | [Link](https://github.com/bahmutov?tab=overview&from=2020-06-01&to=2020-06-30) | 1183 | 8 | 51 | 35 | 66 | 160 | -38%
+[July 2020](./2020/07-July-2020.md) | [Link](https://github.com/bahmutov?tab=overview&from=2020-07-01&to=2020-07-31) | 943 | 7 | 62 | 35 | 57 | 161 | 0%
 
 **Total** = new repos + PRs + reviews + opened issues
 
