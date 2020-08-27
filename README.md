@@ -5,7 +5,8 @@ This repo contains my daily notes in Markdown format. I started keeping daily ru
 - `@feature` is the new code or fixing bugs or writing tests or documenting new feature
 - `@internal` are utility tasks that are usually private to Cypress
 - `@support` supporting our users
-- `@presentation` is for working on the slides or making a presentation
+- `@slides` preparing for a public presentation, working on slides, sending a proposal
+- `@presentation` the actual public presentation in front of people
 - `@learning` is when I was learning something new
 - `@hiring` working to hire someone
 - `@blog` writing a blog post for [https://www.cypress.io/blog/](https://www.cypress.io/blog/), [https://glebbahmutov.com/blog/](https://glebbahmutov.com/blog/), or some 3rd party blog
