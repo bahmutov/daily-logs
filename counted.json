@@ -1,0 +1,196 @@
+[
+  {
+    "blog": 10,
+    "example": 33,
+    "feature": 51,
+    "hiring": 6,
+    "internal": 16,
+    "learning": 6,
+    "presentation": 5,
+    "slides": 27,
+    "support": 5
+  },
+  {
+    "blog": 7,
+    "example": 31,
+    "feature": 63,
+    "hiring": 10,
+    "internal": 19,
+    "learning": 9,
+    "presentation": 6,
+    "slides": 38,
+    "support": 3
+  },
+  {
+    "blog": 11,
+    "example": 24,
+    "feature": 67,
+    "hiring": 11,
+    "internal": 14,
+    "learning": 4,
+    "presentation": 3,
+    "slides": 15,
+    "support": 1
+  },
+  {
+    "blog": 6,
+    "example": 25,
+    "feature": 80,
+    "hiring": 5,
+    "internal": 16,
+    "learning": 9,
+    "presentation": 2,
+    "slides": 19,
+    "support": 6
+  },
+  {
+    "blog": 7,
+    "example": 24,
+    "feature": 80,
+    "hiring": 13,
+    "internal": 21,
+    "learning": 5,
+    "presentation": 1,
+    "slides": 28,
+    "support": 4
+  },
+  {
+    "blog": 8,
+    "example": 21,
+    "feature": 51,
+    "hiring": 18,
+    "internal": 16,
+    "learning": 5,
+    "presentation": 3,
+    "slides": 13,
+    "support": 10
+  },
+  {
+    "blog": 9,
+    "example": 12,
+    "feature": 80,
+    "hiring": 13,
+    "internal": 18,
+    "learning": 8,
+    "presentation": 4,
+    "slides": 31,
+    "support": 11
+  },
+  {
+    "blog": 3,
+    "example": 23,
+    "feature": 68,
+    "hiring": 2,
+    "internal": 10,
+    "learning": 4,
+    "presentation": 4,
+    "slides": 12,
+    "support": 9
+  },
+  {
+    "blog": 7,
+    "example": 22,
+    "feature": 69,
+    "hiring": 1,
+    "internal": 9,
+    "learning": 4,
+    "presentation": 4,
+    "slides": 8,
+    "support": 9
+  },
+  {
+    "blog": 6,
+    "example": 30,
+    "feature": 78,
+    "hiring": 11,
+    "internal": 11,
+    "learning": 1,
+    "presentation": 4,
+    "slides": 9,
+    "support": 8
+  },
+  {
+    "blog": 5,
+    "example": 47,
+    "feature": 83,
+    "hiring": 3,
+    "internal": 7,
+    "learning": 2,
+    "presentation": 2,
+    "slides": 7,
+    "support": 8
+  },
+  {
+    "blog": 2,
+    "example": 30,
+    "feature": 89,
+    "hiring": 1,
+    "internal": 4,
+    "learning": 3,
+    "presentation": 4,
+    "slides": 13,
+    "support": 4
+  },
+  {
+    "blog": 13,
+    "example": 41,
+    "feature": 96,
+    "hiring": 2,
+    "internal": 11,
+    "learning": 5,
+    "presentation": 3,
+    "slides": 16,
+    "support": 3
+  },
+  {
+    "blog": 3,
+    "example": 42,
+    "feature": 118,
+    "internal": 11,
+    "learning": 3,
+    "presentation": 6,
+    "slides": 16,
+    "support": 6
+  },
+  {
+    "blog": 7,
+    "example": 58,
+    "feature": 112,
+    "internal": 8,
+    "learning": 5,
+    "presentation": 3,
+    "slides": 19,
+    "support": 9
+  },
+  {
+    "blog": 15,
+    "example": 41,
+    "feature": 111,
+    "internal": 11,
+    "learning": 6,
+    "presentation": 5,
+    "slides": 21,
+    "support": 7
+  },
+  {
+    "blog": 14,
+    "example": 47,
+    "feature": 81,
+    "hiring": 1,
+    "internal": 10,
+    "learning": 7,
+    "presentation": 2,
+    "slides": 7,
+    "support": 3
+  },
+  {
+    "blog": 8,
+    "example": 24,
+    "feature": 49,
+    "internal": 14,
+    "learning": 5,
+    "presentation": 3,
+    "slides": 13,
+    "support": 5
+  }
+]

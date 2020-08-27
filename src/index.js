@@ -38,7 +38,7 @@ function countMonth(monthLabel) {
   const grouped = R.groupBy(R.prop('tag'), tags)
   // console.log(grouped)
   const counted = {}
-  Object.keys(grouped).forEach(tag => {
+  Object.keys(grouped).sort().forEach(tag => {
     counted[tag] = grouped[tag].length
   })
   // console.log(counted)
@@ -69,4 +69,4 @@ const monthLabels = [
 ]
 
 const counts = monthLabels.map(countMonth)
-console.log(counts)
+console.log(JSON.stringify(counts, null, 2))
