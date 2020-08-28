@@ -143,5 +143,24 @@ csvText += '\n' + counts.map(toCsvLine).join('\n')
 fs.writeFileSync('counted.csv', csvText + '\n', 'utf8')
 console.log('wrote file counted.csv')
 
+let mdText = '# Items counted\n'
+mdText += 'label | ' + tags.join(' | ')
+const toMdLine = (count) => {
+  return (
+    count.label +
+    ' | ' +
+    tags
+      .map((tag) => {
+        const n = count[tag] || 0
+        return String(n)
+      })
+      .join(' | ')
+  )
+}
+mdText += '\n---|' + tags.map((_) => '---').join('|') + '\n'
+mdText += counts.map(toMdLine).join('\n')
+fs.writeFileSync('counted.md', mdText + '\n', 'utf8')
+console.log('wrote file counted.md')
+
 // console.log(JSON.stringify(counts, null, 2))
 console.log(JSON.stringify(totals, null, 2))
