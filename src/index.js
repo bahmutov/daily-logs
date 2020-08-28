@@ -118,10 +118,23 @@ const calculateTotalPercent = (totals) => {
   return percents
 }
 
+const calculateAverage = (totals) => {
+  const N = monthLabels.length
+  const averages = {
+    label: 'average',
+  }
+  tags.forEach((tag) => {
+    averages[tag] = Math.round(totals[tag] / N)
+  })
+
+  return averages
+}
+
 const counts = monthLabels.map(countMonth)
 const totals = calculateTotals(counts)
 const totalPercents = calculateTotalPercent(totals)
-counts.push(totals, totalPercents)
+const average = calculateAverage(totals)
+counts.push(totals, totalPercents, average)
 fs.writeFileSync('counted.json', JSON.stringify(counts, null, 2) + '\n', 'utf8')
 console.log('wrote file counted.json')
 

@@ -234,5 +234,17 @@
     "presentation": "2.10",
     "slides": "10.23",
     "support": "3.67"
+  },
+  {
+    "label": "average",
+    "blog": 8,
+    "example": 32,
+    "feature": 80,
+    "hiring": 5,
+    "internal": 13,
+    "learning": 5,
+    "presentation": 4,
+    "slides": 17,
+    "support": 6
   }
 ]

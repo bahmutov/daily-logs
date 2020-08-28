@@ -14,6 +14,12 @@ This repo contains my daily notes for [2019](./2019) and [2020](./2020) in Markd
 
 The dates follow YYYY-MM-DD format, for example `2020-05-27`. There are a couple of missing days - I was probably taking time off or traveling. You often find "The Weekend" notes that show me working through the weekend. I only do this because I enjoy my work so so much, it helps me to do stuff even during my days off. Usually during the weekends I invent new stuff, prepare presentations, and write blog posts.
 
+## Task counts
+
+See [counted.md](counted.md) file for month by month totals and averages. You can also use [counted.csv](counted.csv) or [counted.json](counted.json). Mostly I spent time working on features and examples teaching our users how to use the features.
+
+![Task breakdown percentages](images/categories.png)
+
 ## GitHub stats
 
 | Month                                         | GH                                                                             | Commits | New repos | PRs | Reviews | Opened issues | Total | Diff |
