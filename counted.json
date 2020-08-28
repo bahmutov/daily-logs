@@ -222,5 +222,17 @@
     "presentation": 64,
     "slides": 312,
     "support": 112
+  },
+  {
+    "label": "total %",
+    "blog": "4.66",
+    "example": "18.85",
+    "feature": "46.92",
+    "hiring": "3.18",
+    "internal": "7.41",
+    "learning": "2.98",
+    "presentation": "2.10",
+    "slides": "10.23",
+    "support": "3.67"
   }
 ]

@@ -71,19 +71,19 @@ const monthLabels = [
   '08-August-2020',
 ]
 
-const calculateTotals = (counts) => {
-  const tags = [
-    'blog',
-    'example',
-    'feature',
-    'hiring',
-    'internal',
-    'learning',
-    'presentation',
-    'slides',
-    'support',
-  ]
+const tags = [
+  'blog',
+  'example',
+  'feature',
+  'hiring',
+  'internal',
+  'learning',
+  'presentation',
+  'slides',
+  'support',
+]
 
+const calculateTotals = (counts) => {
   const totals = {
     label: 'total',
   }
@@ -100,10 +100,48 @@ const calculateTotals = (counts) => {
   return totals
 }
 
+const calculateTotalPercent = (totals) => {
+  const percents = {
+    label: 'total %',
+  }
+  let totalN = 0
+  tags.forEach((tag) => {
+    totalN += totals[tag]
+  })
+
+  console.log('total items %d', totalN)
+
+  tags.forEach((tag) => {
+    percents[tag] = ((totals[tag] / totalN) * 100).toFixed(2)
+  })
+
+  return percents
+}
+
 const counts = monthLabels.map(countMonth)
 const totals = calculateTotals(counts)
-
-counts.push(totals)
+const totalPercents = calculateTotalPercent(totals)
+counts.push(totals, totalPercents)
 fs.writeFileSync('counted.json', JSON.stringify(counts, null, 2) + '\n', 'utf8')
+console.log('wrote file counted.json')
+
+let csvText = 'label,' + tags.join(',')
+const toCsvLine = (count) => {
+  return (
+    count.label +
+    ',' +
+    tags
+      .map((tag) => {
+        const n = count[tag] || 0
+        return String(n)
+      })
+      .join(',')
+  )
+}
+csvText += '\n' + counts.map(toCsvLine).join('\n')
+
+fs.writeFileSync('counted.csv', csvText + '\n', 'utf8')
+console.log('wrote file counted.csv')
+
 // console.log(JSON.stringify(counts, null, 2))
 console.log(JSON.stringify(totals, null, 2))
