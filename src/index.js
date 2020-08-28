@@ -10,11 +10,11 @@ function countMonth(monthLabel) {
   const filename = path.join(__dirname, '..', year, monthLabel + '.md')
   const file = fs.readFileSync(filename, 'utf8')
 
-  const isTask = line => line.startsWith('- ')
-  const hasTag = line => line.includes('@')
+  const isTask = (line) => line.startsWith('- ')
+  const hasTag = (line) => line.includes('@')
   const lines = file.split(os.EOL).filter(isTask).filter(hasTag)
 
-  const lineToTagged = line => {
+  const lineToTagged = (line) => {
     const reg = /.* @(example|feature|internal|support|slides|presentation|learning|hiring|blog)$/
     const matches = reg.exec(line)
     if (!matches) {
@@ -23,7 +23,7 @@ function countMonth(monthLabel) {
 
     return {
       line: matches[0].trim(),
-      tag: matches[1].trim()
+      tag: matches[1].trim(),
     }
   }
 
@@ -37,15 +37,18 @@ function countMonth(monthLabel) {
 
   const grouped = R.groupBy(R.prop('tag'), tags)
   // console.log(grouped)
-  const counted = {}
-  Object.keys(grouped).sort().forEach(tag => {
-    counted[tag] = grouped[tag].length
-  })
+  const counted = {
+    month: monthLabel,
+  }
+  Object.keys(grouped)
+    .sort()
+    .forEach((tag) => {
+      counted[tag] = grouped[tag].length
+    })
   // console.log(counted)
 
   return counted
 }
-
 
 const monthLabels = [
   '03-March-2019',
@@ -65,8 +68,38 @@ const monthLabels = [
   '05-May-2020',
   '06-June-2020',
   '07-July-2020',
-  '08-August-2020'
+  '08-August-2020',
 ]
+
+const calculateTotals = (counts) => {
+  const tags = [
+    'blog',
+    'example',
+    'feature',
+    'hiring',
+    'internal',
+    'learning',
+    'presentation',
+    'slides',
+    'support',
+  ]
+
+  const totals = {}
+  tags.forEach((tag) => {
+    totals[tag] = 0
+  })
+  counts.forEach((count) => {
+    tags.forEach((tag) => {
+      const n = count[tag] || 0
+      totals[tag] += n
+    })
+  })
+
+  return totals
+}
 
 const counts = monthLabels.map(countMonth)
 console.log(JSON.stringify(counts, null, 2))
+
+const totals = calculateTotals(counts)
+console.log(JSON.stringify(totals, null, 2))

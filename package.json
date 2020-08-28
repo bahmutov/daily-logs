@@ -21,5 +21,8 @@
   "homepage": "https://github.com/bahmutov/daily-logs#readme",
   "dependencies": {
     "ramda": "0.27.1"
+  },
+  "devDependencies": {
+    "prettier": "2.1.1"
   }
 }
