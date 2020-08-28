@@ -1,5 +1,6 @@
 [
   {
+    "label": "03-March-2019",
     "blog": 10,
     "example": 33,
     "feature": 51,
@@ -11,6 +12,7 @@
     "support": 5
   },
   {
+    "label": "04-April-2019",
     "blog": 7,
     "example": 31,
     "feature": 63,
@@ -22,6 +24,7 @@
     "support": 3
   },
   {
+    "label": "05-May-2019",
     "blog": 11,
     "example": 24,
     "feature": 67,
@@ -33,6 +36,7 @@
     "support": 1
   },
   {
+    "label": "06-June-2019",
     "blog": 6,
     "example": 25,
     "feature": 80,
@@ -44,6 +48,7 @@
     "support": 6
   },
   {
+    "label": "07-July-2019",
     "blog": 7,
     "example": 24,
     "feature": 80,
@@ -55,6 +60,7 @@
     "support": 4
   },
   {
+    "label": "08-August-2019",
     "blog": 8,
     "example": 21,
     "feature": 51,
@@ -66,6 +72,7 @@
     "support": 10
   },
   {
+    "label": "09-September-2019",
     "blog": 9,
     "example": 12,
     "feature": 80,
@@ -77,6 +84,7 @@
     "support": 11
   },
   {
+    "label": "10-October-2019",
     "blog": 3,
     "example": 23,
     "feature": 68,
@@ -88,6 +96,7 @@
     "support": 9
   },
   {
+    "label": "11-November-2019",
     "blog": 7,
     "example": 22,
     "feature": 69,
@@ -99,6 +108,7 @@
     "support": 9
   },
   {
+    "label": "12-December-2019",
     "blog": 6,
     "example": 30,
     "feature": 78,
@@ -110,6 +120,7 @@
     "support": 8
   },
   {
+    "label": "01-January-2020",
     "blog": 5,
     "example": 47,
     "feature": 83,
@@ -121,6 +132,7 @@
     "support": 8
   },
   {
+    "label": "02-February-2020",
     "blog": 2,
     "example": 30,
     "feature": 89,
@@ -132,6 +144,7 @@
     "support": 4
   },
   {
+    "label": "03-March-2020",
     "blog": 13,
     "example": 41,
     "feature": 96,
@@ -143,6 +156,7 @@
     "support": 3
   },
   {
+    "label": "04-April-2020",
     "blog": 3,
     "example": 42,
     "feature": 118,
@@ -153,6 +167,7 @@
     "support": 6
   },
   {
+    "label": "05-May-2020",
     "blog": 7,
     "example": 58,
     "feature": 112,
@@ -163,6 +178,7 @@
     "support": 9
   },
   {
+    "label": "06-June-2020",
     "blog": 15,
     "example": 41,
     "feature": 111,
@@ -173,6 +189,7 @@
     "support": 7
   },
   {
+    "label": "07-July-2020",
     "blog": 14,
     "example": 47,
     "feature": 81,
@@ -184,13 +201,26 @@
     "support": 3
   },
   {
-    "blog": 8,
+    "label": "08-August-2020",
+    "blog": 9,
     "example": 24,
-    "feature": 49,
+    "feature": 54,
     "internal": 14,
     "learning": 5,
     "presentation": 3,
     "slides": 13,
-    "support": 5
+    "support": 6
+  },
+  {
+    "label": "total",
+    "blog": 142,
+    "example": 575,
+    "feature": 1431,
+    "hiring": 97,
+    "internal": 226,
+    "learning": 91,
+    "presentation": 64,
+    "slides": 312,
+    "support": 112
   }
 ]

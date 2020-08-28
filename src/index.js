@@ -38,7 +38,7 @@ function countMonth(monthLabel) {
   const grouped = R.groupBy(R.prop('tag'), tags)
   // console.log(grouped)
   const counted = {
-    month: monthLabel,
+    label: monthLabel,
   }
   Object.keys(grouped)
     .sort()
@@ -84,7 +84,9 @@ const calculateTotals = (counts) => {
     'support',
   ]
 
-  const totals = {}
+  const totals = {
+    label: 'total',
+  }
   tags.forEach((tag) => {
     totals[tag] = 0
   })
@@ -99,7 +101,9 @@ const calculateTotals = (counts) => {
 }
 
 const counts = monthLabels.map(countMonth)
-console.log(JSON.stringify(counts, null, 2))
-
 const totals = calculateTotals(counts)
+
+counts.push(totals)
+fs.writeFileSync('counted.json', JSON.stringify(counts, null, 2) + '\n', 'utf8')
+// console.log(JSON.stringify(counts, null, 2))
 console.log(JSON.stringify(totals, null, 2))
