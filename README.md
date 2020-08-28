@@ -16,6 +16,13 @@ The dates follow YYYY-MM-DD format, for example `2020-05-27`. There are a couple
 
 ## Task counts
 
+The script [src/index.js](src/index.js) parses the markdown files and generates totals.
+
+```shell
+npm install
+npm run count
+```
+
 See [counted.md](counted.md) file for month by month totals and averages. You can also use [counted.csv](counted.csv) or [counted.json](counted.json). Mostly I spent time working on features and examples teaching our users how to use the features.
 
 ![Task breakdown percentages](images/categories.png)
