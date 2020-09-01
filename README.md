@@ -1,5 +1,7 @@
 # Daily Logs
 
+Read the analysis at [What I Have Done](https://glebbahmutov.com/blog/what-i-have-done/)
+
 This repo contains my daily notes for [2019](./2019) and [2020](./2020) in Markdown format. I started keeping daily running log of things I have done for myself (almost as a personal quick memory cache), and for daily agile stand ups. I have redacted private information from these notes using `**redacted**`, but mostly they are intact. Almost every task is tagged with its type, the valid tags are below:
 
 - `@example` task for when I created an example or a demo application to show a concept, like examples in the [cypress-example-kitchensink](https://github.com/cypress-io/cypress-example-kitchensink) and [cypress-example-recipes](https://github.com/cypress-io/cypress-example-recipes) repositories. I also tag most of the work related to the documentation with `@example` because our docs do have lots of examples.
